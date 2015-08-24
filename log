@@ -1,0 +1,35 @@
+Fetching origin
+Fetching origin
+Fetching origin
+patching file cpu-all.h
+patching file hw/Makefile.objs
+patching file hw/i386/Makefile.objs
+patching file hw/pc_piix.c
+patching file hw/pci.c
+patching file hw/pci.h
+patching file hw/piix_pci.c
+The next patch would create the file hw/vga-xengt.c,
+which already exists!  Assume -R? [n] 
+Apply anyway? [n] 
+Skipping patch.
+1 out of 1 hunk ignored
+The next patch would create the file hw/vga-xengt.h,
+which already exists!  Assume -R? [n] 
+Apply anyway? [n] 
+Skipping patch.
+1 out of 1 hunk ignored
+patching file hw/vga.c
+patching file hw/vga_int.h
+patching file hw/xen-host-pci-device.c
+patching file hw/xen-host-pci-device.h
+patching file hw/xen_pt.c
+patching file hw/xen_pt.h
+patching file hw/xen_pt_config_init.c
+The next patch would create the file hw/xen_pt_igd.c,
+which already exists!  Assume -R? [n] 
+Apply anyway? [n] 
+Skipping patch.
+1 out of 1 hunk ignored
+patching file qemu-options.hx
+patching file sysemu.h
+patching file vl.c

@@ -1,0 +1,24 @@
+From 723c07e5ff370338c4458b125bb9de7f7f78402a Mon Sep 17 00:00:00 2001
+From: Joseph Kogut <joseph.kogut@gmail.com>
+Date: Mon, 24 Aug 2015 05:34:34 +0000
+Subject: [PATCH] tools/Makefile: apply patch to fix gnutls 3.4.0 compat
+
+---
+ tools/Makefile | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/tools/Makefile b/tools/Makefile
+index af9798a..a3e86b1 100644
+--- a/tools/Makefile
++++ b/tools/Makefile
+@@ -160,6 +160,7 @@ subdir-all-qemu-xen-traditional-dir: qemu-xen-traditional-dir-find
+ 	set -e; \
+ 		$(buildmakevars2shellvars); \
+ 		cd qemu-xen-traditional-dir; \
++		patch -Np1 -i ../gnutls-3.4.0.patch
+ 		$(QEMU_ROOT)/xen-setup \
+ 		$(IOEMU_EXTRA_LDFLAGS) \
+ 		--cpu=$(IOEMU_CPU_ARCH) \
+-- 
+2.5.0
+
