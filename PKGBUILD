@@ -1,4 +1,5 @@
-# Maintainer: David Sutton <kantras - gmail.com>
+# Maintainer: Joseph Kogut <joseph.kogut+AUR@gmail.com>
+# Contributor: David Sutton <kantras - gmail.com>
 # Contributor: Shanmu Thiagaraja <sthiagaraja+AUR@prshanmu.com>
 # Contributor: Limao Luo
 # Contributor: Luceo
